@@ -2,4 +2,4 @@ baseURL = "https://tarea-6-scary-movies.netlify.app/"
 languageCode = "en-us"
 title = "Scary Movies"
 theme= "plain"
-paginate= 4
+paginate= 3
