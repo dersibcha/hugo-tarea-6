@@ -1,0 +1,17 @@
+	{
+		"_id": 1,
+		"producer": "Producer A",
+		"country": "United States",
+		"founded": 1807,
+		"genere": "Scary",
+		"movies": [
+			{
+				"movie_id": 1,
+				"title": "El exorcista"
+			},
+			{
+				"movie_id": 6,
+				"title": "La semilla del diablo"
+			}
+		]
+	}

@@ -1,0 +1,13 @@
+{
+	"_id": 7,
+	"title": "IT",
+	"edition": "1st",
+	"year": 2017,
+	"language": "ENGLISH",
+	"pages": 447,
+	"director": "Andy Muschietti",
+	"director_id": 4,
+	"producer": "Produer C",
+	"producer_id": 3,
+	"punctuation":5
+}

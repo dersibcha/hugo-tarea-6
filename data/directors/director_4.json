@@ -1,0 +1,17 @@
+{
+	"_id": 4,
+	"director": "Andy Muschietti",
+	"nationality": "Argentina",
+	"birth_year": 1973,
+	"fields": "Action, Gore",
+	"movies": [
+		{
+			"movie_id": 7,
+			"title": "IT"
+		},
+		{
+			"movie_id": 6,
+			"title": "Data Structures and Algorithms"
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+{{ $path := ( print "data/movies/" .File.TranslationBaseName ".json") }}
+
+{{ $dataJ := getJSON $path }}
+
+<div class="row">
+	 <div class="six columns">
+     <h4 style="margin-top: 15px">{{ $dataJ.title }}</h4>
+		 <h5>Movie's details</h5>
+     <label for="yearInput">Year</label>
+     <input class="u-full-width" type="text" id="year" value="{{ $dataJ.year }}" readonly/>
+     <label for="punctuationInput">Punctuation</label>
+     <input class="u-full-width" type="text" id="punctuation" value="{{ $dataJ.punctuation }}" readonly/>
+   </div>
+	 <div class="three columns">
+		 <img width="100%" style="margin-left: 50%;" src="/movies/{{.File.TranslationBaseName}}.jpg"/>
+	</div>
+</div>
+
+  <div class="row">
+    <div class="six columns">
+       <label for="editionInput">Edition</label>
+       <input class="u-full-width" type="text" id="edition" value="{{ $dataJ.edition }}" readonly/>
+    </div>
+    <div class="six columns">
+       <label for="languageInput">Language</label>
+       <input class="u-full-width" type="text" id="language" value="{{ $dataJ.language }}" readonly/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="six columns">
+       <label for="directorInput">director</label>
+       <a href="/directors/director_{{ $dataJ.director_id }}">
+         <input class="u-full-width" type="button" id="director" value="{{ $dataJ.director }}" readonly/>
+       </a>
+    </div>
+    <div class="six columns">
+       <label for="languageInput">producer</label>
+       <a href="/producers/producer_{{ $dataJ.producer_id }}">
+         <input class="u-full-width" type="button" id="producer" value="{{ $dataJ.producer }}" readonly/>
+       </a>
+    </div>
+  </div>
+
+{{ end }}

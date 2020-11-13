@@ -1,0 +1,17 @@
+{
+	"_id": 3,
+	"producer": "Producer C",
+	"country": "United States",
+	"founded": 1942,
+	"genere": "Thriller",
+	"movies": [
+		{
+			"movie_id": 3,
+			"title": "La Profecía"
+		},
+		{
+			"movie_id": 7,
+			"title": "IT"
+		}
+	]
+}

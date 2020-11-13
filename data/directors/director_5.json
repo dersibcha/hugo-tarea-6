@@ -1,0 +1,17 @@
+{
+	"_id": 5,
+	"director": "James Wan",
+	"nationality": "Malasian",
+	"birth_year": 1977,
+	"fields": "Scary",
+	"movies": [
+		{
+			"movie_id": 8,
+			"title": "Expediente Warren"
+		},
+		{
+			"movie_id": 9,
+			"title": "La matanza de Texas"
+		}
+	]
+}

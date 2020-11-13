@@ -1,0 +1,17 @@
+{
+	"_id": 2,
+	"producer": "Producer B",
+	"country": "United Kingdom",
+	"founded": 1844,
+	"genere": "Action",
+	"movies": [
+		{
+			"movie_id": 2,
+			"title": "El orfanato"
+		},
+		{
+			"movie_id": 10,
+			"title": "Pesadilla en Elm Street"
+		}
+	]
+}

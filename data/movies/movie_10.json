@@ -1,0 +1,13 @@
+{
+	"_id": 10,
+	"title": "Pesadilla en Elm Street",
+	"edition": "1st",
+	"year": 1984,
+	"language": "ENGLISH",
+	"pages": 447,
+	"director": "William Friedkin",
+	"director_id": 1,
+	"producer": "Producer B",
+	"producer_id": 2,
+	"punctuation":5
+}

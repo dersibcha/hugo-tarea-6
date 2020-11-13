@@ -1,0 +1,17 @@
+{
+	"_id": 4,
+	"producer": "Producer D",
+	"country": "Spain",
+	"founded": 1982,
+	"genere": "Action/Gore",
+	"movies": [
+		{
+			"movie_id": 4,
+			"title": "El resplandor"
+		},
+		{
+			"movie_id": 9,
+			"title": "La matanza de Texas"
+		}
+	]
+}

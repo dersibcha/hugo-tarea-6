@@ -1,0 +1,17 @@
+{
+	"_id": 2,
+	"director": "Juan Antonio Bayona",
+	"nationality": "Spain",
+	"birth_year": 1975,
+	"fields": "Scary",
+	"movies": [
+		{
+			"movie_id": 2,
+			"title": "El orfanato"
+		},
+		{
+			"movie_id": 5,
+			"title": "Viernes 13"
+		}
+	]
+}

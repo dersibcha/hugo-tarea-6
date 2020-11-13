@@ -1,0 +1,17 @@
+{
+	"_id": 3,
+	"director": "Richard Donner",
+	"nationality": "American",
+	"birth_year": 1930,
+	"fields": "Thriller",
+	"movies": [
+		{
+			"movie_id": 3,
+			"title": "La Profecía"
+		},
+		{
+			"movie_id": 4,
+			"title": "El resplandor"
+		}
+	]
+}

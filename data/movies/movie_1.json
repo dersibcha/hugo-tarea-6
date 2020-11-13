@@ -1,0 +1,13 @@
+	{
+		"_id": 1,
+		"title": "El exorcista",
+		"edition": "9th",
+		"year": 1973,
+		"language": "SPANISH",
+		"pages": 976,
+		"director": "William Friedkin",
+		"director_id": 1,
+		"producer": "Producer A",
+		"producer_id": 1,
+		"punctuation":5
+	}

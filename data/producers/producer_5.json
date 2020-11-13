@@ -1,0 +1,17 @@
+{
+	"_id": 5,
+	"producer": "Producer E",
+	"country": "United States",
+	"founded": 1972,
+	"genere": "Science Fiction",
+	"movies": [
+		{
+			"movie_id": 5,
+			"title": "Viernes 13"
+		},
+		{
+			"movie_id": 8,
+			"title": "Expediente Warren"
+		}
+	]
+}

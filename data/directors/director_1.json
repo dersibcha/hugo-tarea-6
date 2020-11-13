@@ -1,0 +1,21 @@
+{
+	"_id": 1,
+	"director": "William Friedkin",
+	"nationality": "American",
+	"birth_year": 1935,
+	"fields": "Scary, Action",
+	"movies": [
+		{
+			"movie_id": 1,
+			"title": "El exorcista"
+		},
+		{
+			"movie_id": 6,
+			"title": "La semilla del diablo"
+		},
+		{
+			"movie_id": 10,
+			"title": "Pesadilla en Elm Street"
+		}
+	]
+}
